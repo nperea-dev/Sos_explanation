@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="container">
+        <h1 class="my-4">Mis Videos</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Video 1</h2>
+                <video width="100%" controls>
+                    <!-- Especifica la ruta del archivo de vídeo en la carpeta "estatic" -->
+                    <source src="/estatic/video1.mp4" type="video/mp4">
+                    Tu navegador no admite la reproducción de videos.
+                </video>
+            </div>
+            <div class="col-md-6">
+                <h2>Video 2</h2>
+                <video width="100%" controls>
+                    <!-- Especifica la ruta del archivo de vídeo en la carpeta "estatic" -->
+                    <source src="/estatic/video2.mp4" type="video/mp4">
+                    Tu navegador no admite la reproducción de videos.
+                </video>
+            </div>
+        </div>
+    </div>
+{% endblock %}
