@@ -10,12 +10,15 @@ def home():
 def inercia():
     return render_template("inercia.html")
 
-"""
-@app.route("/videos")
-def Videostatic():
-    return  render_template("videos.html")
 
-"""
+@app.route("/flywheel")
+def flywheel():
+    return  render_template("flywheel.html")
+
+@app.route("/sos")
+def sos():
+    return  render_template("sos.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True)

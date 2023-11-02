@@ -8,10 +8,10 @@ El volante de inercia continúa su movimiento cuando cesa el par motor que lo pr
 
 
 
-El SOS Snag Overload System es un sistema de sobrecarga con. Evita el peligro de
+El SOS Snag Overload System es un sistema de sobrecarga, evita el riesgo de
 daños estructurales en la grúa, que pueden ser generados por el motor del mecanismo de elevación debido a su elevada masa inercial.
 Ante cualquier sobrecarga, el acoplamiento de seguridad Malmedie separa
-la masa inercial del motor (CA) en menos de un milisegundo del mecanismo deelevación. 
+del motor del hoist En menos de un milisegundo del mecanismo deelevación. 
 Para reducir aún más el momento de inercia restante de la masa se
 emplean discos de freno Pintsch Bubenzer LiTec® que ya cuentan con una inercia
 de masa reducida en un 60%. Los frenos de servicio y seguridad de Pintsch Bubenzer
