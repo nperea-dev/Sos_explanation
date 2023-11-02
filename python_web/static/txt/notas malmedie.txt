@@ -1,0 +1,52 @@
+Volante de inercia (flywheel)
+El volante de inercia continúa su movimiento cuando cesa el par motor que lo propulsa. De esta forma, el volante de inercia se opone a las aceleraciones bruscas en un movimiento rotativo. Así se consiguen reducir las fluctuaciones de velocidad angular. Es decir, se utiliza el volante para suavizar el flujo de energía entre una fuente de potencia y su carga.
+
+
+
+
+
+
+
+
+El SOS Snag Overload System es un sistema de sobrecarga con. Evita el peligro de
+daños estructurales en la grúa, que pueden ser generados por el motor del mecanismo de elevación debido a su elevada masa inercial.
+Ante cualquier sobrecarga, el acoplamiento de seguridad Malmedie separa
+la masa inercial del motor (CA) en menos de un milisegundo del mecanismo deelevación. 
+Para reducir aún más el momento de inercia restante de la masa se
+emplean discos de freno Pintsch Bubenzer LiTec® que ya cuentan con una inercia
+de masa reducida en un 60%. Los frenos de servicio y seguridad de Pintsch Bubenzer
+(de cierre rápido) especialmente desarrollados para esta aplicación evitan al
+mismo tiempo una inversión del/de los tambor/es de cable. El tiempo de reacción
+El tiempo de reacción
+del sistema con su mando propio y separado es ultrarrápido y culmina antes de
+que los dispositivos hidráulicos actuales puedan siquiera iniciar una reacción de
+protección. Este sistema, además de contar con la ventaja de que se generan
+menores fuerzas en los cables en comparación con las generadas por los sistemas
+hidráulicos de protección convencionales, también es más ligero, más rentable y
+requiere menos mantenimiento.
+
+
+
+Single Rope Protection SRP
+© M.A.T. MALMEDIE ANTRIEBSTECHNIK GMBH 2012 – Reservado el derecho a realizar modificaciones 3
+Además del dispositivo de protección mecánica, el SOS Snag Overload System
+dispone adicionalmente y de manera autónoma de una función de protección electrónica.
+Para ello, las dos celdas de carga de la grúa tienen un diseño de doble canal: un canal
+sigue siendo utilizado por el control de la grúa, mientras que el segundo canal va
+a través de un amplificador de medición rápido de diseño propio directamente al
+control SOS (aprox. 20 ms). En caso de sobrecarga incluso de un solo cable, el
+control cierra los frenos de seguridad y separa el acoplamiento de seguridad en
+función del número de revoluciones para proteger el tren de transmisión. De este
+modo se detecta un caso de snag en la fase más temprana posible y se aplica de
+inmediato la función de protección.
+Adicionalmente se procesan las señales twistlock (apertura/cierre) de tal manera
+que con el spreader vacío se aplica debajo automáticamente el punto de protección.
+El efecto de protección aparece por tanto antes con el spreader vacío; en un
+servicio crítico con velocidades elevadas y un spreader vacío las sobrecargas
+posibles en caso de snag se ven por tanto claramente reducidas.
+Imagen,
+
+
+importante! 
+La utilización del acoplamiento MSC requiere una inspección cada tres años por parte de Malmedie.
+

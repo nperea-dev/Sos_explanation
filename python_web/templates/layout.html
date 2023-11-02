@@ -6,40 +6,40 @@
     <title>introduccion malmedie</title>
     <!-- Agrega el enlace al archivo CSS de Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
+    <!--nueva barra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="/"><img src="../static/img/logo_puerto_cartagena.png" alt="logo Logo-Grupo-Puerto-Cartagena" width="180" ></a>
+          <a class="navbar-brand" href="/"><img src="../static/img/Logo-Grupo-Puerto-Cartagena.png" alt="logo Logo-Grupo-Puerto-Cartagena" width="120"></a>
+          <ul class="navbar-nav me-auto mb-2 ml-auto mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </head>
+<body class=" bg-warning">
    
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="..\static\img\logo_puerto_cartagena.png" class="img-thumbnail rounded mx-auto d-block" alt="...">
-           
-          </a>
-        </div>
-      </nav>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-          <a class="navbar-brand" href="/">home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/page2">Page2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/videos">Videos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-             </ul>
-          </div>
-        </div>
-      </nav>
+<div class="container-fluid m-3 ml-auto">
 {% block content %}
 {% endblock content %}
+</div>
     <!-- Agrega el enlace al archivo JavaScript de Bootstrap (opcional) -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>

@@ -2,32 +2,21 @@
 {% extends "layout.html" %}
 {% block content %}
  
-    <div 
-    class="container">
-        <h1 class="my-4">Volante de inercia (flywheel)</h1>
-        <div class="row">
-            <div class="col-md-12">
-                
-                <p>El volante de inercia continúa su movimiento cuando cesa el par motor que lo propulsa. De esta forma, el volante de inercia se opone a las aceleraciones bruscas en un movimiento rotativo. Así se consiguen reducir las fluctuaciones de velocidad angular. Es decir, se utiliza el volante para suavizar el flujo de energía entre una fuente de potencia y su carga.</p></div>
-            <div class="col-md-6">
-                <h2>carro juguete</h2>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <!-- Reemplaza la URL con el iframe de tu primer video -->
-                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/mD-fj_FOOM8?si=abuJrirAP49Zbrk5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <h2>explicacion flywheel</h2>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <!-- Reemplaza la URL con el iframe de tu segundo video -->
-                    <iframe class="embed-responsive-item"  width="502" height="360" src="https://www.youtube.com/embed/EMazLuxpzxE" title="Working of Flywheel | Theory of Machines" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-        <p><a href="/videostatic">videos estaticos</a></p>
-        <a href="/layout">Layout</a>
-        <p><a href="pagina2">pagina dos </a></p>
-
-    </div>
+    <!-- Hero -->
+<div class="p-5 text-center bg-image rounded-3" style="
+background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+height: 400px;
+">
+<div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+<div class="d-flex justify-content-center align-items-center h-100">
+  <div class="text-white">
+    <h1 class="mb-3">Heading</h1>
+    <h4 class="mb-3">Subheading</h4>
+    <a class="btn btn-outline-light btn-lg" href="/inercia" role="button">Empecemos</a>
+  </div>
+</div>
+</div>
+</div>
+<!-- Hero -->
 {% endblock content %}
 
