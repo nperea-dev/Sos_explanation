@@ -1,24 +1,69 @@
 {% extends "layout.html" %}
+{% block title %}conceptos sistema antisnag{% endblock %}
 {% block content %}
-    <div class="container">
-        <h1 class="my-4">Mis Videos</h1>
-        <div class="row">
-            <div class="col-md-6">
-                <h2>Video 1</h2>
-                <video width="100%" controls>
-                    <!-- Especifica la ruta del archivo de vídeo en la carpeta "estatic" -->
-                    <source src="/estatic/video1.mp4" type="video/mp4">
-                    Tu navegador no admite la reproducción de videos.
-                </video>
-            </div>
-            <div class="col-md-6">
-                <h2>Video 2</h2>
-                <video width="100%" controls>
-                    <!-- Especifica la ruta del archivo de vídeo en la carpeta "estatic" -->
-                    <source src="/estatic/video2.mp4" type="video/mp4">
-                    Tu navegador no admite la reproducción de videos.
-                </video>
+<!-- primera seccion -->
+<article>
+    <div class="row m-auto">
+        <h2 class="m-3">introduccion al sistema antisnag</h2>
+        <div class="col-md-6">
+
+            <p class="fs-5">
+                El Snag Overload System, evita daños estructurales en la grúa, que pueden ser generados por el motor del
+                mecanismo de elevación debido a su elevada masa inercial.
+                Ante cualquier sobrecarga, el acoplamiento de seguridad Malmedie separa
+                del motor del hoist del mecanismo de elevación.<br>
+                Para reducir aún más el momento de inercia restante se
+                emplean discos de freno Pintsch Bubenzer LiTec® que cuentan con una inercia
+                de masa reducida un 60%. Los frenos de servicio evitan la inversión del tambor de cable.<br>
+                El tiempo de reacción del sistema con su mando propio y separado es ultrarrápido más que los
+                dispositivos
+                hidráulicos actuales puedan iniciar una reacción.
+
+            </p>
+        </div>
+        <div class="col-md-6 mt-3">
+            <div class="embed-responsive embed-responsive-16by9">
+                <!-- Reemplaza la URL con el iframe de tu primer video -->
+                <iframe class="embed-responsive-item" width="560" height="315" controls src="../static/vid/sos_trip.mp4"
+                    title="inercia" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share
+                " allowfullscreen></iframe>
             </div>
         </div>
     </div>
-{% endblock %}
+</article>
+<!-- segunda seccion -->
+<article>
+    <div class="row m-auto mt-5">
+        <h2 class="m-3">Accion del tambor</h2>
+        <div class="col-md-6">
+
+            <div class="embed-responsive embed-responsive-16by9">
+
+                <iframe class="embed-responsive-item" width="560" height="315" controls src="../static/vid/tamborhoist.mp4"
+                    title="inercia" frameborder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+
+        </div>
+        <div class="col-md-6 mt-3">
+
+
+            <p class="fs-5">
+                El Snag Overload System, evita daños estructurales en la grúa, que pueden ser generados por el motor del
+                mecanismo de elevación debido a su elevada masa inercial.
+                Ante cualquier sobrecarga, el acoplamiento de seguridad Malmedie separa
+                del motor del hoist del mecanismo de elevación.<br>
+                Para reducir aún más el momento de inercia restante se
+                emplean discos de freno Pintsch Bubenzer LiTec® que cuentan con una inercia
+                de masa reducida un 60%. Los frenos de servicio evitan la inversión del tambor de cable.<br>
+            </p>
+
+        </div>
+    </div>
+</article>
+
+
+
+
+{% endblock content %}
