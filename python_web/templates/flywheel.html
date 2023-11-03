@@ -1,33 +1,28 @@
-
 {% extends "layout.html" %}
 {% block content %}
- 
-    <div 
-    class="container">
-        <h1 class="my-4">Page2</h1>
-        <div class="row">
-            <div class="col-md-12">
-                
-                <p>El volante de inercia continúa su movimiento cuando cesa el par motor que lo propulsa. De esta forma, el volante de inercia se opone a las aceleraciones bruscas en un movimiento rotativo. Así se consiguen reducir las fluctuaciones de velocidad angular. Es decir, se utiliza el volante para suavizar el flujo de energía entre una fuente de potencia y su carga.</p></div>
-            <div class="col-md-6">
-                <h2>carro juguete</h2>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <!-- Reemplaza la URL con el iframe de tu primer video -->
-                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/mD-fj_FOOM8?si=abuJrirAP49Zbrk5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <h2>explicacion flywheel</h2>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <!-- Reemplaza la URL con el iframe de tu segundo video -->
-                    <iframe class="embed-responsive-item"  width="502" height="360" src="https://www.youtube.com/embed/EMazLuxpzxE" title="Working of Flywheel | Theory of Machines" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-        <p><a href="/videostatic">videos estaticos</a></p>
-        <a href="/layout">Layout</a>
-        <p><a href="pagina2">pagina dos </a></p>
+<div class="row m-auto">
+    <div class="col-md-6">
+        <h2>Volante de inercia o rueda volanta</h2>
+        <p class="fs-5">
+            El volante de inercia continúa su movimiento cuando cesa el par motor que lo propulsa. De esta forma, el
+            volante de inercia se opone a las aceleraciones bruscas en un movimiento rotativo. Así se consiguen reducir
+            las fluctuaciones de la velocidad angular. Es decir, se utiliza el volante para suavizar el flujo de energía
+            entre una fuente de potencia y su carga.<br>
+            En las gruas la inercia acumulada en el rotor del motor intentará arrastar el freno de servicio.
 
+        </p>
     </div>
-{% endblock content %}
+    <div class="col-md-6">
+        <div class="embed-responsive embed-responsive-16by9">
+            <!-- Reemplaza la URL con el iframe de tu primer video -->
+            <iframe class="embed-responsive-item" width="560" height="315" src="../static/vid/flyw.mp4"
+                title="inercia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share
+                autoplay" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
 
+
+
+
+{% endblock content %}
